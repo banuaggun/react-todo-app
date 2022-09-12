@@ -23,6 +23,6 @@
 
 ### Screenshots
 
-![Login](src\screenshots\login.png)
+![Login](./src/screenshots/login.png)
 
-![TodoList](src\screenshots\todolist.png)
+![TodoList](./src/screenshots/todolist.png)
