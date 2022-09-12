@@ -17,6 +17,8 @@ function Login() {
      
         <header style={{marginTop:'4rem'}}>
           <h1>Login</h1>
+          <br/>
+          <p>Please Enter A Name</p>
         </header>
       <form>
         <input type="text" className="input" style={{marginTop:'2rem'}} required value={user.name} onChange={(e) => setUser({...user, name:e.target.value})} />
