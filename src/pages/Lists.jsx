@@ -5,6 +5,7 @@ import {putApi} from "../api/PutApi";
 import CustomForm from '../components/CustomForm'
 import TaskList from '../components/TaskList'
 import EditForm from '../components/EditForm'
+import ThemeSwitcher from '../components/ThemeSwitcher'
 
 function Lists() {
   const [todos, setTodos] = useState([]);
@@ -77,6 +78,8 @@ function Lists() {
       {todos && (
         <TaskList todos={todos} toggleTodo={toggleTodo} enterEditMode={enterEditMode} />
       )}
+
+      <ThemeSwitcher />
     </div>
   )
 }

@@ -10,6 +10,9 @@
 
   ✅ When adding a new todo, the input field should not be empty, it should contain at least 3 characters
 
+  ✅ Storing the user's dark/light mode preference in local storage
+
+  ✅ Additionally I added Color Picker. In this way, the user can change the theme.
 
 
 ## Technologies & Libraries
@@ -26,3 +29,7 @@
 ![Login](./src/screenshots/login.png)
 
 ![TodoList](./src/screenshots/todolist.png)
+
+![dakmode](./src/screenshots//darkmode.png)
+
+![colorpicker](./src/screenshots/colorpicker.png)
